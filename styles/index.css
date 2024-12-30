@@ -13,6 +13,76 @@
     --paragraph: 400 16px/150% var(--font-family);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    font-family: var(--font-family);
+    color: var(--text-color-secondary);
+    background-image: url(../assets/bg-image.png);
+    background-size: cover;
 
+}
 
+#page {
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: var(--sufrace-color);
+    border-radius: 16px;
+    margin: 40px auto 28px;
+
+}
+
+img {
+    border-radius: 16px;
+    width: 100%;
+
+}
+
+main {
+    padding: 24px
+}
+
+h1 {
+    font: var(--heading-1);
+    margin-bottom: 4px;
+    color: var(--text-color-primary)
+}
+
+#about p + p {
+    margin-top: 12px;
+
+}
+
+h2 {
+    font: var(--heading-2);
+    margin-bottom: 4px;
+    color: var(--text-color-primary);
+
+}
+
+section + section {
+
+    margin-top: 24px;
+
+}
+
+ul{
+    padding-left: 24px;
+
+}
+
+footer {
+    color:var(--sufrace-color);
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
